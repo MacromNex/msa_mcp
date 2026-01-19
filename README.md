@@ -9,6 +9,19 @@ This MCP server provides tools for generating Multiple Sequence Alignments (MSA)
   - Returns A3M format alignment files
   - Automatic job submission, polling, and result retrieval
 
+## Installation
+
+### Quick Setup (Recommended)
+
+Run the automated setup script:
+
+```bash
+cd msa_mcp
+bash quick_setup.sh
+```
+
+The script will create the conda environment, install all dependencies, and display the Claude Code configuration. See `quick_setup.sh --help` for options like `--skip-env`.
+
 ## Running as Standalone FastMCP Service
 
 You can run this as a standalone FastMCP server:
